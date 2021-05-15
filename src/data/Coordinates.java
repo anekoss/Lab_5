@@ -4,8 +4,8 @@ package data;
  * X-Y coordinates.
  */
 public class Coordinates {
-    private double x; //Значение поля должно быть больше -385
-    private Integer y; //Поле не может быть null
+    private double x; 
+    private Integer y; 
 
     public Coordinates() {
         x = 0;
