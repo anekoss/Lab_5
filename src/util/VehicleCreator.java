@@ -23,9 +23,9 @@ public class VehicleCreator {
         String name; //Поле не может быть null, Строка не может быть пустой
         LocalDate creationDate; //Поле не может быть null, Значение этого поля должно генерироваться автоматически
         float enginePower; //Значение поля должно быть больше 0
-        long fuelConsumption; //Значение поля должно быть больше 0
-        Integer distanceTravelled; //Поле может быть null, Значение поля должно быть больше 0
-        FuelType fuelType; //Поле может быть null
+        long fuelConsumption; 
+        Integer distanceTravelled; 
+        FuelType fuelType; 
         double x;
         creationDate = LocalDate.now();
         Integer y;
