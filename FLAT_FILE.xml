@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Vehicles>
+    <Vehicle>
+        <id>1</id>
+        <CreationDate>2021-05-15</CreationDate>
+        <name>h</name>
+        <enginePower>2.0</enginePower>
+        <fuelConsumption>2</fuelConsumption>
+        <Coordinates>
+            <x>2.0</x>
+            <y>2</y>
+        </Coordinates>
+    </Vehicle>
+</Vehicles>
