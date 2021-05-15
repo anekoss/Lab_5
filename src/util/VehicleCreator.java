@@ -20,9 +20,9 @@ public class VehicleCreator {
      * @return new dragon
      */
     public Vehicle createElement() {
-        String name; //Поле не может быть null, Строка не может быть пустой
-        LocalDate creationDate; //Поле не может быть null, Значение этого поля должно генерироваться автоматически
-        float enginePower; //Значение поля должно быть больше 0
+        String name; 
+        LocalDate creationDate; 
+        float enginePower; 
         long fuelConsumption; 
         Integer distanceTravelled; 
         FuelType fuelType; 
