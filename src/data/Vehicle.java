@@ -7,14 +7,14 @@ import java.util.Comparator;
  * This class contains the description of the elements stored in the collection.
  */
 public class Vehicle implements Comparable<Vehicle> {
-    private Integer id; //Поле не может быть null, Значение поля должно быть больше 0, Значение этого поля должно быть уникальным, Значение этого поля должно генерироваться автоматически
-    private String name; //Поле не может быть null, Строка не может быть пустой
-    private Coordinates coordinates; //Поле не может быть null
-    private LocalDate creationDate; //Поле не может быть null, Значение этого поля должно генерироваться автоматически
-    private float enginePower; //Значение поля должно быть больше 0
-    private long fuelConsumption; //Значение поля должно быть больше 0
-    private Integer distanceTravelled; //Поле может быть null, Значение поля должно быть больше 0
-    private FuelType fuelType; //Поле может быть null
+    private Integer id;
+    private String name; 
+    private Coordinates coordinates;
+    private LocalDate creationDate; 
+    private float enginePower; 
+    private long fuelConsumption; 
+    private Integer distanceTravelled;
+    private FuelType fuelType; 
 
     public Vehicle() {
 
